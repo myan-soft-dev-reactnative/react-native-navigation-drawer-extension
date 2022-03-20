@@ -13,7 +13,6 @@
     "postpublish": "pinst --enable",
     "pre-commit": "npx lint-staged",
     "postinstall": "npx husky install"
-    "prepare": "npx husky install",
   },
   "repository": {
     "type": "git",
