@@ -11,8 +11,8 @@
     "test": "echo \"Error: no test specified\"",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
-    "pre-commit": "yarn lint-staged",
-    "postinstall": "yarn husky install"
+    "pre-commit": "npx lint-staged",
+    "postinstall": "npx husky install"
   },
   "repository": {
     "type": "git",
